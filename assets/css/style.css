@@ -11,7 +11,7 @@ body {
 }
 
 .min-h-full{
-    height:100vh
+    min-height:100vh
 }
 
 .flex{
@@ -142,12 +142,12 @@ body {
 
 .display-image {
     border-radius: 50%;
-    width:150px;
+    width:130px;
     display:block;
     border-radius:50%;
     -o-object-fit:cover;
     object-fit:cover;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
 .page-title {
@@ -282,6 +282,7 @@ body {
 .page-full-wrap{
     width:680px;
     z-index:10;
+    margin-bottom: 30px;
 }
 .page-item-wrap{
     transition:transform .15s cubic-bezier(.17,.67,.29,2.71) 0s
